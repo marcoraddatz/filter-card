@@ -4,7 +4,7 @@
                 v-for="option in filter.options"
                 :key="option.value"
                 class="py-4 px-8 focus:outline-none flex-1"
-                :class="[isActive(option) ? 'text-grey-black font-bold border-primary': 'text-grey font-semibold border-40']"
+                :class="[isActive(option) ? 'font-bold border border-t-0 border-l-0 border-r-0 border-b-2 border-primary': 'text-90 font-semibold']"
                 @click="handleChange(option)"
         >{{ option.name }}
         </button>
